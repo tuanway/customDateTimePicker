@@ -24,7 +24,7 @@
 	"model":{
 		"afterToday" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : false},
 		"beforeToday" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : false},
-		"dataProviderID" : { "type":"dataprovider", "pushToServer": "allow","tags": { "scope" :"design" }, "ondatachange": { "onchange":"onDataChangeMethodID", "callback":"onDataChangeCallback"}},
+		"dataProviderID" : { "type":"dataprovider", "pushToServer": "allow","tags": { "scope" :"design" }, "ondatachange": { "onchange":"onDataChangeMethodID"}},
 		"lockInput" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : false},
 		"styleClass": {"type": "styleclass","tags":{"scope": "design"}},				
 		"useFocus" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : false},

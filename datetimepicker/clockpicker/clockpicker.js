@@ -26,7 +26,7 @@ angular.module('datetimepickerClockpicker', ['servoy']).directive('datetimepicke
 						afterHourSelect: $scope.handlers.afterHourSelect,
 						beforeDone: $scope.handlers.beforeDone,
 						afterDone: $scope.handlers.afterDone,
-						twelvehour: $scope.handlers.twelvehour
+						twelvehour: $scope.model.twelvehour
 					});
 				});
 

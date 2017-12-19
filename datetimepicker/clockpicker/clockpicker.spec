@@ -18,7 +18,7 @@
 	"model":
 	{	
 		"styleClass": {"type": "styleclass","tags":{"scope": "design"}},
-		"dataProviderID" : { "type":"dataprovider", "pushToServer": "allow","tags": { "scope" :"design" }, "ondatachange": { "onchange":"onDataChangeMethodID", "callback":"onDataChangeCallback"}},
+		"dataProviderID" : { "type":"dataprovider", "pushToServer": "allow","tags": { "scope" :"design" }, "ondatachange": { "onchange":"onDataChangeMethodID"}},
 		"default" : {"type":"string" , "tags": { "scope" :"design" }, "default" : "now"},
 		"placement" : {"type":"string" , "tags": { "scope" :"design" }, "default" : "bottom ","values":["top","bottom","left","right"]},
 		"align" : {"type":"string" , "tags": { "scope" :"design" }, "default" : "left", "values":["top","bottom","left","right"]},

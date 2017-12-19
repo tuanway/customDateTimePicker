@@ -146,7 +146,10 @@ specname:\"column\"\
 items:[
 {
 json:{
-placement:"bottom"
+dataProviderID:"time",
+onDataChangeMethodID:"92EE58FA-CEBF-44E7-8F4D-2E31E9BE4BCA",
+placement:"bottom",
+twelvehour:true
 },
 name:"clockpicker_1",
 typeName:"datetimepicker-clockpicker",
@@ -208,7 +211,7 @@ items:[
 {
 json:{
 afterToday:true,
-dataProviderID:"thedate",
+dataProviderID:"date",
 dateFieldOrder:"d,m,y",
 format:"MM/dd/yyyy",
 onDataChangeMethodID:"92EE58FA-CEBF-44E7-8F4D-2E31E9BE4BCA",
