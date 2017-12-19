@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: datetimepicker
+Bundle-Name: datetimepicker
+Bundle-Version: 1.0.0
+Package-Type: Web-Component
+
+Name: datepicker/datepicker.spec
+Web-Component: True
+
+Name: clockpicker/clockpicker.spec
+Web-Component: True
+
