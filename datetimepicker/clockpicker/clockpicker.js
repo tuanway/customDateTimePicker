@@ -13,6 +13,8 @@ angular.module('datetimepickerClockpicker', ['servoy']).directive('datetimepicke
 					$scope.picker = $('#' + $scope.model.svyMarkupId).clockpicker({
 						default: $scope.model.default,
 						placement: $scope.model.placement,
+						showArrow: $scope.model.showArrow,
+						showCentered: $scope.model.showCentered,
 						align: $scope.model.align,
 						donetext: $scope.model.donetext,
 						autoclose: $scope.model.autoclose,
@@ -30,16 +32,16 @@ angular.module('datetimepickerClockpicker', ['servoy']).directive('datetimepicke
 					});
 				});
 
-				$scope.api.show = function() {
-					$scope.picker.show();
+				$scope.api.show = function() {					
+					$scope.picker.clockpicker('show')					
 				}
 
 				$scope.api.hide = function() {
-					$scope.picker.hide();
+					$scope.picker.clockpicker('hide')
 				}
 
-				$scope.api.toggleView = function(type) {
-					$scope.picker.toggleView(type);
+				$scope.api.toggleView = function(type) {					
+					$scope.picker.clockpicker('toggleView',type)
 				}
 			},
 			templateUrl: 'datetimepicker/clockpicker/clockpicker.html'

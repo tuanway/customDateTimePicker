@@ -27,3 +27,14 @@ function onDataChangeMethodID(oldValue, newValue, event) {
 	application.output('date: ' + date + ', time: ' + time)
 	return false;
 }
+
+/**
+ * @param {JSEvent} event
+ *
+ * @private
+ *
+ * @properties={typeid:24,uuid:"D4D6C3CF-4955-40CA-980F-D45056F52B64"}
+ */
+function onActionMethodID(event) {		
+	elements.clockpicker_hidden.show()
+}

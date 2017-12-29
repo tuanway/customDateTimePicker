@@ -18,6 +18,7 @@
 	"model":
 	{	
 		"styleClass": {"type": "styleclass","tags":{"scope": "design"}},
+		"styleClassInput": {"type": "styleclass"},
 		"dataProviderID" : { "type":"dataprovider", "pushToServer": "allow","tags": { "scope" :"design" }, "ondatachange": { "onchange":"onDataChangeMethodID"}},
 		"default" : {"type":"string" , "tags": { "scope" :"design" }, "default" : "now"},
 		"placement" : {"type":"string" , "tags": { "scope" :"design" }, "default" : "bottom ","values":["top","bottom","left","right"]},
@@ -25,7 +26,9 @@
 		"donetext" : {"type":"string" , "tags": { "scope" :"design" }, "default" : "Done"},
 		"autoclose" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : false},
 		"vibrate" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : true},
-		"twelvehour" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : false}
+		"twelvehour" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : false},
+		"showArrow" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : true},
+		"showCentered" : {"type":"boolean" , "tags": { "scope" :"design" }, "default" : false}
 	},
 	
 	"handlers":
