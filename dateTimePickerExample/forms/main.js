@@ -12,7 +12,6 @@ var time = null;
  */
 var date = null;
 
-
 /**
  * @param oldValue
  * @param newValue
