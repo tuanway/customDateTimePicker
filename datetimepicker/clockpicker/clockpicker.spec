@@ -10,6 +10,12 @@
 			"mimetype": "text/javascript"
 		},
 		{
+			"name": "clock picker custom css",
+			"version": "1.0.0",
+			"url": "datetimepicker/clockpicker/clockpicker.css",
+			"mimetype": "text/css"
+		},
+		{
 			"name": "clock picker css",
 			"version": "0.0.7",
 			"url": "datetimepicker/clockpicker/lib/bootstrap-clockpicker.min.css",
